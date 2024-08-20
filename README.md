@@ -21,7 +21,8 @@ Complete the empty <code>echo</code> commands in the <code>queries.sh</code> fil
 
 <h2>Notes:</h2>
 If you leave your virtual machine, your database may not be saved. You can make a dump of it by entering <code>pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql</code> in a bash terminal (not the psql one). It will save the commands to rebuild your database in <code>worldcup.sql</code>. The file will be located where the command was entered. If it's anything inside the project folder, the file will be saved in the VM. You can rebuild the database by entering <code>psql -U postgres < worldcup.sql</code> in a terminal where the .sql file is.
-<br />
+<br>
+  <br>
 If you are saving your progress on freeCodeCamp.org, after getting all the tests to pass, follow the instructions above to save a dump of your database. Save the <code>worldcup.sql</code> file, as well as the final version of your <code>insert_data.sh</code> and <code>queries.sh</code> files, in a public repository and submit the URL to it on freeCodeCamp.org.
 
 <hr>
