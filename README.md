@@ -29,15 +29,15 @@ If you are saving your progress on freeCodeCamp.org, after getting all the tests
 
 Complete the tasks below
 <ul>
-<li>You should create a database named worldcup</li>
-<li>You should connect to your worldcup database and then create teams and games tables</li>
-<li>Your teams table should have a team_id column that is a type of SERIAL and is the primary key, and a name column that has to be UNIQUE</li>
-<li>Your games table should have a game_id column that is a type of SERIAL and is the primary key, a year column of type INT, and a round column of type VARCHAR</li>
-<li>Your games table should have winner_id and opponent_id foreign key columns that each reference team_id from the teams table</li>
-<li>Your games table should have winner_goals and opponent_goals columns that are type INT</li>
-<li>All of your columns should have the NOT NULL constraint</li>
-<li>Your two script (.sh) files should have executable permissions. Other tests involving these two files will fail until permissions are correct. When these permissions are enabled, the tests will take significantly longer to run.</li>
-<li>When you run your insert_data.sh script, it should add each unique team to the teams table. There should be 24 rows</li>
-<li>When you run your insert_data.sh script, it should insert a row for each line in the games.csv file (other than the top line of the file). There should be 32 rows. Each row should have every column filled in with the appropriate info. Make sure to add the correct ID's from the teams table (you cannot hard-code the values)</li>
-<li>You should correctly complete the queries in the queries.sh file. Fill in each empty echo command to get the output of what is suggested with the command above it. Only use a single line like the first query. The output should match what is in the expected_output.txt file exactly, take note of the number of decimal places in some of the query results</li>
+<li>You should create a database named <code>worldcup</code></li>
+<li>You should connect to your worldcup database and then create <code>teams</code> and <code>games</code> tables</li>
+<li>Your <code>teams</code> table should have a <code>team_id</code> column that is a type of <code>SERIAL</code> and is the <code>primary key</code>, and a <code>name</code> column that has to be <code>UNIQUE</code></li>
+<li>Your <code>games</code> table should have a <code>game_id</code> column that is a type of <code>SERIAL</code> and is the <code>primary key</code>, a <code>year</code> column of type <code>INT</code>, and a <code>round</code> column of type <code>VARCHAR</li></code>
+<li>Your <code>games</code> table should have <code>winner_id</code> and <code>opponent_id</code> foreign key columns that each reference <code>team_id</code> from the <code>teams</code> table</li>
+<li>Your <code>games</code> table should have <code>winner_goals</code> and <code>opponent_goals</code> columns that are type <code>INT</code></li>
+<li>All of your columns should have the <code>NOT NULL</code> constraint</li>
+<li>Your two script (<code>.sh</code>) files should have executable permissions. Other tests involving these two files will fail until permissions are correct. When these permissions are enabled, the tests will take significantly longer to run.</li>
+<li>When you run your <code>insert_data.sh</code> script, it should add each unique team to the <code>teams</code> table. There should be 24 rows</li>
+<li>When you run your <code>insert_data.sh</code> script, it should insert a row for each line in the <code>games.csv</code> file (other than the top line of the file). There should be 32 rows. Each row should have every column filled in with the appropriate info. Make sure to add the correct ID's from the teams table (you cannot hard-code the values)</li>
+<li>You should correctly complete the queries in the <code>queries.sh</code> file. Fill in each empty <code>echo</code> command to get the output of what is suggested with the command above it. Only use a single line like the first query. The output should match what is in the <code>expected_output.txt</code> file exactly, take note of the number of decimal places in some of the query results</li>
 </ul>
